@@ -329,6 +329,11 @@ body {
   border-radius: 6px;
 }
 
+.cardHeader .btn:hover{
+  transition: 0.40s;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px var(--blue);
+}
 .cardcad{
   display: flex;
   justify-content: center;
@@ -343,6 +348,12 @@ body {
   text-decoration: none;
   color: var(--white);
   border-radius: 40px;
+}
+
+.cardcad .btn:hover{
+  transition: 0.40s;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px var(--blue);
 }
 
 .details table {
