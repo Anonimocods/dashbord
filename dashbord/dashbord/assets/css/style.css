@@ -195,7 +195,9 @@ body {
 .cad {
   position: relative;
   width: 400px;
-  margin: 0 10px;
+  margin: 25px 10px;
+  
+  
 }
 
 .cad label{
@@ -213,6 +215,7 @@ body {
   font-size: 18px;
   outline: none;
   border: 1px solid var(--black2);
+  margin-top: 10px;
 }
 
 .cad label svg{
@@ -301,10 +304,9 @@ body {
 
 .details .recentOrders {
   position: relative;
-  display: grid;
   min-height: 500px;
   background: var(--white);
-  padding: 20px;
+  padding: 28px;
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 }
@@ -330,7 +332,7 @@ body {
 .cardcad{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -409,9 +411,9 @@ body {
 
 .recentCustomers {
   position: relative;
-  display: grid;
-  min-height: 500px;
-  padding: 20px;
+  min-height: 380px;
+  width: 83%;
+  padding: 30px;
   background: var(--white);
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
