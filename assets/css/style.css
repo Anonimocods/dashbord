@@ -311,6 +311,36 @@ body {
   border-radius: 20px;
 }
 
+
+.details .btnOpen{
+  height: 40px;
+  width: 200px;
+  position: relative;
+  padding: 5px 10px;
+  background: var(--blue);
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 6px;
+}
+.details .btnOpen:hover{
+  transition: 0.40s;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px var(--blue);
+} 
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000000;
+}
+
 .details .cardHeader {
   display: flex;
   justify-content: space-between;
@@ -421,11 +451,12 @@ body {
 }
 
 .recentCustomers {
+  display: none; /* Oculta a modal por padrão */
   position: relative;
   min-height: 380px;
   width: 83%;
   padding: 30px;
-  background: var(--white);
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 }
